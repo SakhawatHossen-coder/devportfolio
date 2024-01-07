@@ -34,6 +34,7 @@ li {
 }
 button {
   border: 0;
+  cursor: pointer;
 }
 input {
   outline: none;
@@ -244,4 +245,7 @@ background-color: var(--bgColor);
   margin: .5rem;
   border: none;
   outline: none;
+}
+.footer_left .icons img{
+  cursor: pointer;
 }
