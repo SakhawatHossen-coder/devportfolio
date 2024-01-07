@@ -216,3 +216,32 @@ input {
 margin-top: 5rem;
 text-align: center;
 }
+#footer{
+background-color: var(--bgColor);
+  
+}
+.footer_main{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+}
+.footer_left, .footer_right{
+  margin-top: 1rem;
+}
+.footer_left h2, .footer_right h2{
+  font-size: var(--mdFont);
+  padding-bottom: 1rem;
+}
+.footer_left p, .footer_right p{
+  font-size: var(--mdFontLite);
+  padding-bottom: 1rem;
+}
+.footer_right input,textarea{
+  display: block;
+  padding: .5rem;
+  margin: .5rem;
+  border: none;
+  outline: none;
+}
